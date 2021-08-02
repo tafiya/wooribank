@@ -1,0 +1,423 @@
+@charset "utf-8";
+header .top { 
+     margin: 0 auto;
+     width: 1200px;
+     padding: 0 0 26px;
+ }
+
+header .top h1 {
+     float: left;
+     padding-top: 33px;
+ }
+
+header .top h1 a:first-child {
+     margin-right: 33px;
+ }
+
+header .top > div {
+     float: right;
+ }
+
+header .control {
+    float: left;
+    padding: 31px 0 0;
+}
+
+
+header .control h2 {
+     float: left;
+     font-size: 16px;
+     color: #333;
+     font-weight: normal;
+     line-height: 36px;
+ }
+
+header .control ul {
+    float: left;
+    padding-right: 20px;
+}
+
+header .control li {
+    float: left;
+    padding: 0 0 0 4px;
+}
+
+header .control li button {
+    min-width: 36px;
+    box-sizing: border-box;
+    padding: 0 16px;
+    font-size: 14px;
+    color: #3190ce;
+    background: #fff;
+    border: 1px solid #dfdfdd;
+    height: 36px;
+    border-radius: 36px;
+}
+
+header .control li button[class] {
+    padding: 0;
+}
+
+header .sns {
+    position: relative;
+    float: left;
+    padding: 27px 0 0;
+}
+
+header .sns::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 35px;
+    width: 1px;
+    height: 30px;
+    background: #e3e3e3;
+}
+
+header .sns li {
+    float: left;
+    padding-left: 20px;
+}
+
+header .sns li + li{
+    padding: 0 0 0 7px;
+}
+
+header .sns li img {
+    width: 46px;
+}
+
+header .btm {
+    border-top: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+
+}
+
+header .btm > div{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+header .btm .lnb {
+    float: left;
+}
+
+header .btm .lnb li {
+    float: left;
+}
+
+
+header .btm .lnb a {
+    display: block;
+    padding: 0 40px;
+    line-height: 59px;
+    font-size: 22px;
+    color: #333;
+}
+
+header .btm .spot * {
+    vertical-align: middle;
+}
+header .btm .spot {
+    float: right;
+    font-size: 0;
+}
+
+header .btm .spot a {
+    display: inline-block;
+    position: relative;
+    padding: 0 25px;
+    line-height: 59px;
+    font-size: 15px;
+    color: #666;
+}
+
+header .btm .spot a ~ a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 1px;
+    height: 10px;
+    background: #e3e3e3;
+    transform: translateY(-50%);
+}
+header .btm .spot button {
+    width: 59px;
+    height: 59px;
+    background: none;
+    color: #0066b3;
+    font-size: 26px;
+}
+
+/* 서비스 섹션 */
+ .block > div {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0 0;
+ }
+
+ .block .tit {
+     text-align: center;
+ }
+
+ .block .tit h2 {
+     font-size: 38px;
+     padding: 0 0 28px;
+     color: #333;
+     line-height:1;
+ }
+
+ .block .tit p {
+    padding: 0 0 40px 0;
+    font-size: 21px;
+    color: #666;
+    line-height:1;
+}
+
+/* 슬라이드 */
+.visual img {
+    width: 100%;
+}
+.visual .controls {
+    position: absolute;
+    padding: 0 32px;
+    left: 50%;
+    z-index: 30;
+    transform: translateX(-50%);
+    bottom: 25px;
+}
+
+.visual .controls > button {
+    position: absolute;
+    top: 0;
+    width: 15px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.visual .controls > button.next {
+    right: 0;
+    background: url(../images/sBtn_next3.png);
+}
+
+.visual .controls > button.prev {
+    left: 0;
+    background: url(../images/sBtn_prev3.png);
+}
+.visual .paging {
+    line-height: 25px;
+}
+.visual .paging span {
+    margin: 0 5px;
+    width: 14px;
+    height: 14px;
+    border-radius: 14px;
+    background: #d9d9d9;
+    transition: all .5s;
+}
+
+.visual .paging span.swiper-pagination-bullet-active {
+    width: 30px;
+    background: #288bcc;
+}
+
+
+/* 금융서비스 */
+
+.service .banner > div {
+    width: 580px;
+    color: #fff;
+    text-align: center;
+}
+
+.service .banner div div {
+    padding: 37px 0 0;
+    width: 290px;
+    height: 280px;
+    box-sizing: border-box;
+}
+
+.service .banner .left {
+    float: left;
+    background: url(../images/service1.jpg) no-repeat left top;
+
+}
+
+.service .banner .left div {
+    float: right;
+    background: linear-gradient(to right, #3194d5, #4fb2f6);
+}
+.service .banner .right {
+    float: right;
+    background: url(../images/service2.jpg) no-repeat right top;
+
+}
+
+.service .banner .right div {
+    background: linear-gradient(to right, #334da4, #3c62b3);
+}
+
+.service .banner h3 {
+    font-size: 24px;
+    line-height: 31px;
+}
+
+.service .banner p {
+    padding: 12px 0 15px;
+    font-size: 13px;
+    line-height: 24px;
+
+}
+.service .banner a {
+    display: block;
+    margin: 0 auto;
+    width: 140px;
+    background: #064ca2;
+    border-radius: 7px;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.service .btm > article {
+    position: relative;
+    margin: 38px 0 0;
+    width: 580px;
+    font-size: 26px;
+    color: #333;
+}
+
+.service .btm h3 {
+    padding: 0 0 28px;
+    font-size: 26px;
+    color: #333;
+}
+
+.service .event {
+    float: left;
+}
+
+.service .recom {
+    float: right;
+}
+
+.service .event img {
+    width: 100%;
+}
+
+.service .card_info > div {
+    float: left;
+    
+}
+
+.service .card_info .card {
+    position: relative;
+}
+
+.service .card_info .card div {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 0;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.service .card_info .card div::before{
+    content: "";
+    position: absolute;
+    left: 50%;
+    width: 1px;
+    height: 100%;
+    background: #bfc0c2;
+}
+
+.service .card_info .card button {
+    width: 50%;
+    height: 45px;
+    font-size: 15px;
+    color: #666;
+    background: none;
+    cursor: pointer;
+}
+
+.service .card_info .info {
+    padding: 0 0 0 35px;
+    width: 295px;
+}
+.service .card_info .info h4 {
+    font-size: 26px;
+    color: #333;
+    line-height: 1;
+}
+
+.service .card_info .info p {
+    position: relative;
+    padding: 36px 0 0 0;
+    font-size: 18px;
+    color: #666;
+    letter-spacing: 0.5px;
+}
+
+.service .card_info .info p::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 21px;
+    width: 36px;
+    height: 2px;
+    background: #288bcc;
+}
+
+.service .slide2 {
+    padding: 20px 0 0;
+    height: 224px;
+    border-top: 2px solid #333;
+    box-sizing: border-box;
+}
+
+.service .slide2 .control {
+    position: absolute;
+    left: 256px;
+    bottom: 0;
+    z-index: 100;
+}
+
+.service .slide2 .control button {
+    width: 75px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.service .slide2 .control button ~ button {
+    border-left: 1px solid #ddd;
+}
+
+.service .slide2 .control .prev-btn {
+    background: url(../images/sArrow_prev.png) no-repeat center;
+}
+
+.service .slide2 .control .next-btn {
+    background: url(../images/sArrow_next.png)  no-repeat center;
+}
+
+
+.btn_more {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 136px;
+    font-size: 16px;
+    color: #8a8a8a;
+    text-align: center;
+    line-height: 38px;
+    border: 1px solid #cdcdcd;
+    border-radius: 4px;
+}
+
+.btn_more::after {
+    /* content: url(../images/sBtn_next3.png); */
+    margin: 0 0 0 7px;
+}
+
