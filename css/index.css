@@ -224,6 +224,9 @@ header .btm .spot button {
 
 
 /* 금융서비스 */
+.service {
+    padding: 0 0 147px 0;
+}
 
 .service .banner > div {
     width: 580px;
@@ -421,6 +424,20 @@ header .btm .spot button {
     margin: 0 0 0 7px;
 }
 
-
 /* 관심정보 */
+.fav-info {
+    background: #ccc;
+}
 
+.fav-info .left > a {
+    display: block;
+    width: 384px;
+    height: 65px;
+    font-size: 19px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 65px;
+    text-align: center;
+    background: #3f69b8;
+    border-radius: 5px;
+}
