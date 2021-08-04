@@ -429,6 +429,10 @@ header .btm .spot button {
     background: #ccc;
 }
 
+.fav-info .left {
+    
+}
+
 .fav-info .left > a {
     display: block;
     width: 384px;
@@ -440,4 +444,8 @@ header .btm .spot button {
     text-align: center;
     background: #3f69b8;
     border-radius: 5px;
+}
+
+.fav-info .left > a span {
+    color: #ffc820;
 }
