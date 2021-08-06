@@ -87,6 +87,10 @@ header .sns li img {
     width: 46px;
 }
 
+header .sns li ~ li {
+    margin-left: 2px;
+}
+
 header .btm {
     border-top: 1px solid #ededed;
     border-bottom: 1px solid #ededed;
