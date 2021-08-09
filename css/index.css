@@ -576,3 +576,13 @@ header .btm .spot button {
     font-size: 15px;
     color: #288bcc;
 }
+
+/* 교육 */
+.education .edu-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.education .edu-wrap .left {
+    width: 580px;
+}
