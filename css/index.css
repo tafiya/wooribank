@@ -586,3 +586,12 @@ header .btm .spot button {
 .education .edu-wrap .left {
     width: 580px;
 }
+
+.education h3 {
+    font-size: 23px;
+    color: #333;
+}
+
+.education h3 span {
+    color: #288bcc;
+}
