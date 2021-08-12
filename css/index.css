@@ -578,6 +578,16 @@ header .btm .spot button {
 }
 
 /* 교육 */
+.education h3 {
+    padding: 0 0 28px;
+    font-size: 23px;
+    color: #333;
+}
+
+.education h3 span {
+    color: #288bcc;
+}
+
 .education .edu-wrap {
     display: flex;
     justify-content: space-between;
@@ -587,11 +597,40 @@ header .btm .spot button {
     width: 580px;
 }
 
-.education h3 {
-    font-size: 23px;
-    color: #333;
+.education .edu-wrap .left a {
+    display: block;
+    padding: 72px 50px;
+    height: 544px;
+    border-radius: 4px;
+    color: #fff;
+    background: url("../images/work-img.jpg") no-repeat center / cover;
+    box-sizing: border-box;
 }
 
-.education h3 span {
-    color: #288bcc;
+.education .edu-wrap .left a strong {
+    display: block;
+    padding: 0 0 16px;
+    width: 330px;
+    font-size: 27px;
+    line-height: 38px;
+}
+
+.education .edu-wrap .left a p {
+    padding: 0 0 35px;
+    width: 255px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.education .edu-wrap .left a span {
+    display: block;
+    width: 140px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 6px;
+}
+
+.education .edu-wrap .right {
+    width: 580px;
 }
