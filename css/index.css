@@ -322,7 +322,7 @@ header .btm .spot button {
     position: relative;
 }
 
-.service .card_info .card div {
+.btn-func {
     position: absolute;
     left: 0;
     right: 0;
@@ -331,7 +331,7 @@ header .btm .spot button {
     background: rgba(255, 255, 255, 0.8);
 }
 
-.service .card_info .card div::before{
+.btn-func::before{
     content: "";
     position: absolute;
     left: 50%;
@@ -340,7 +340,7 @@ header .btm .spot button {
     background: #bfc0c2;
 }
 
-.service .card_info .card button {
+.btn-func button {
     width: 50%;
     height: 45px;
     font-size: 15px;
@@ -633,4 +633,21 @@ header .btm .spot button {
 
 .education .edu-wrap .right {
     width: 580px;
+}
+
+.education .info-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.education .info-wrap .img {
+    position: relative;
+    width: 249px;
+    height: 198px;
+    overflow: hidden;
+}
+
+.education .info-wrap img {
+    width: 100%;
+    height: 100%;
 }
