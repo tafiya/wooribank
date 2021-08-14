@@ -578,10 +578,14 @@ header .btm .spot button {
 }
 
 /* 교육 */
+.education {
+    padding: 0 0 104px;
+}
 .education h3 {
     padding: 0 0 28px;
     font-size: 23px;
     color: #333;
+    line-height: 1;
 }
 
 .education h3 span {
@@ -603,7 +607,7 @@ header .btm .spot button {
     height: 544px;
     border-radius: 4px;
     color: #fff;
-    background: url("../images/work-img.jpg") no-repeat center / cover;
+    background: url("../images/work-img.jpg") no-repeat center / auto 100%;
     box-sizing: border-box;
 }
 
@@ -635,9 +639,19 @@ header .btm .spot button {
     width: 580px;
 }
 
+.education .edu-wrap .right > div{
+    position: relative;
+}
+
+.education .edu-wrap .right > div ~ div {
+    margin : 53px 0 0;
+}
+
 .education .info-wrap {
     display: flex;
     justify-content: space-between;
+    padding: 20px 0 0;
+    border-top: 2px solid #333;
 }
 
 .education .info-wrap .img {
@@ -650,4 +664,48 @@ header .btm .spot button {
 .education .info-wrap img {
     width: 100%;
     height: 100%;
+}
+
+.education .info-wrap .info {
+    width: 296px;
+}
+
+.education .info-wrap .info a {
+    display: block;
+    margin: 0 0 25px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 23px;
+    color: #333;
+    line-height: 1;
+}
+
+.education .info-wrap .info li {
+    padding: 0 0 17px;
+    line-height: 1;
+    font-size: 17px;
+    color: #787878;
+}
+
+.education .info-wrap .info li strong {
+    display: inline-block;
+    width: 44px;
+    color: #222;
+}
+
+.education .info-wrap .info p {
+    font-size: 16px;
+    color: #666;
+}
+
+
+/* 여행 */
+.trip {
+    background: url("../images/trip-bg.jpg") no-repeat center top;
+}
+
+.trip .tit h2,p {
+    color: #fff;
+
 }
