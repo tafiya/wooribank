@@ -702,10 +702,43 @@ header .btm .spot button {
 
 /* 여행 */
 .trip {
+    padding: 0 0 100px;
     background: url("../images/trip-bg.jpg") no-repeat center top;
+
 }
 
-.trip .tit h2,p {
+.trip .tit h2, .trip .tit p {
     color: #fff;
 
+}
+
+.trip .trip-list {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.trip .trip-list li {
+    position: relative;
+    width: 384px;
+    height: 439px;
+    border-radius: 5px;
+    text-align: center;
+    background: #fff;
+}
+
+.trip .trip-list li .thoumb {
+    width: 100%;
+    height: 212px;
+    border-radius: 5px 5px 0 0;
+}
+
+.trip .trip-list li .mark {
+    position: absolute;
+    right: -10px;
+    top: -24px;
+}
+
+.trip .trip-list li strong {
+    display: inline-block;
 }
