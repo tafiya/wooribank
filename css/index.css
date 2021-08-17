@@ -870,10 +870,39 @@ header .btm .spot button {
     border: 1px solid #aec6f1;
 }
 
-.customer h3 {
+.customer .h3 {
     float: left;
+
 }
 
-.customer txt {
+.customer .txt {
     float: left;
+    padding: 0 0 0 13px;
+    font-size: 17px;
+    color: #666;
+}
+
+.customer .form {
+    clear: both;
+    display: flex;
+}
+
+.customer .form input,
+.customer .form select {
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 15px;
+    background: #fafafa;
+}
+
+.customer .form label {
+    padding: 0 14px 0 0;
+    font-size: 15px;
+    color: #333;
+}
+
+.customer .form input::-webkit-input-placeholder {
+    font-size: 15px;
+    color: #a9a9a9;
 }
