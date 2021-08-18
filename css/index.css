@@ -885,15 +885,24 @@ header .btm .spot button {
 .customer .form {
     clear: both;
     display: flex;
+    justify-content: space-between;
+    padding: 0 0 27px;
+    font-size: 0;
 }
 
 .customer .form input,
 .customer .form select {
-    height: 40px;
+    height: 50px;
     border: 1px solid #ddd;
     border-radius: 5px;
     font-size: 15px;
     background: #fafafa;
+}
+
+.customer .form input {
+    padding: 0 0 0 20px;
+    box-sizing: border-box;
+
 }
 
 .customer .form label {
@@ -905,4 +914,42 @@ header .btm .spot button {
 .customer .form input::-webkit-input-placeholder {
     font-size: 15px;
     color: #a9a9a9;
+    line-height: 50px;
+}
+
+.customer .form button {
+    margin-left: 8px;
+    width: 130px;
+    border-radius: 5px;
+    background: #288bcc;
+    font-size: 15px;
+    color: #fff;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+.customer .form span {
+    display: inline-block;
+    width: 18px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 15px;
+    line-height: 50px;
+}
+
+.customer input[type="checkbox"] + label {
+    display: inline-block;
+    padding: 0 10px 0 29px;
+    font-size: 16px;
+    color: #333;
+    line-height: 25px;
+    background: url(../images/checkbox.png) no-repeat left;
+}
+
+.customer label + a {
+    display: inline-block;
+    font-size: 14px;
+    color: #8b8b8b;
+    text-decoration: underline;
+    vertical-align: -2px;
 }
