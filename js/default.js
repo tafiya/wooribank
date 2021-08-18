@@ -27,4 +27,13 @@ $(document).ready(function(){
           prevEl: ".slide2 .prev-btn",
         },
       });
+
+      var swiper3 = new Swiper(".slide3", {
+        slidesPerView: 6,
+        loop: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: true,
+        }
+      });
 });

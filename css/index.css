@@ -953,3 +953,108 @@ header .btm .spot button {
     text-decoration: underline;
     vertical-align: -2px;
 }
+
+.slide-btm {
+    padding: 40px;
+    font-size: 0;
+}
+
+.slide-btm a {
+    padding-right: 10px;
+}
+
+.slide-btm img {
+    border: 1px solid #e3e3e3;
+}
+
+/* footer */
+footer {
+    background: #f5f5f5;
+}
+
+footer.block > div {
+    padding: 60px 0;
+}
+
+footer .top {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e4e4e4;
+    padding: 0 0 29px;
+}
+
+footer .top ul {
+    display: inline-flex;
+    padding: 0 0 0 38px;
+}
+
+footer .top li {
+    padding: 0 17px;
+    position: relative;
+}
+
+footer .top li ~ li::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 1px;
+    height: 13px;
+    background: #d9d9d9;
+    transform: translateY(-50%);
+}
+
+footer .top a {
+    font-size: 15px;
+    color: #555;
+    line-height: 44px;
+}
+
+footer .top select {
+    padding: 0 0 0 20px;
+    width: 228px;
+    height: 44px;
+    border: 1px solid #c4c4cc;
+    background: #fff;
+    font-size: 14px;
+    color: #333;
+}
+
+footer .btm {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 0;
+    font-size: 14px;
+    color: #a8a8a8;
+    line-height: 46px;
+
+}
+
+footer .btm ul {
+    display: flex;
+}
+
+footer .btm li {
+    padding: 0 0 0 12px;
+}
+
+footer .btm li a {
+    display: block;
+    width: 46px;
+    height: 46px;
+    border-radius: 100%;
+}
+
+footer .btm li:nth-child(1) a {
+    background: url("../images/sns_3.png") no-repeat center;
+}
+footer .btm li:nth-child(2) a {
+    background: url("../images/sns_1.png") no-repeat center;
+}
+footer .btm li:nth-child(3) a {
+    background: url("../images/sns_2.png") no-repeat center;
+}
+footer .btm li:nth-child(4) a {
+    background: url("../images/sns_4.png") no-repeat center;
+}
+
