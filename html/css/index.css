@@ -1,0 +1,815 @@
+@charset "utf-8";
+/* 서비스 섹션 */
+ .block > div {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0 0;
+ }
+
+ .block .tit {
+     text-align: center;
+ }
+
+ .block .tit h2 {
+     font-size: 38px;
+     padding: 0 0 28px;
+     color: #333;
+     line-height:1;
+ }
+
+ .block .tit p {
+    padding: 0 0 40px 0;
+    font-size: 21px;
+    color: #666;
+    line-height:1;
+}
+
+/* 슬라이드 */
+.visual img {
+    width: 100%;
+}
+.visual .controls {
+    position: absolute;
+    padding: 0 32px;
+    left: 50%;
+    z-index: 30;
+    transform: translateX(-50%);
+    bottom: 25px;
+}
+
+.visual .controls > button {
+    position: absolute;
+    top: 0;
+    width: 15px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.visual .controls > button.next {
+    right: 0;
+    background: url(../images/sBtn_next3.png);
+}
+
+.visual .controls > button.prev {
+    left: 0;
+    background: url(../images/sBtn_prev3.png);
+}
+.visual .paging {
+    line-height: 25px;
+}
+.visual .paging span {
+    margin: 0 5px;
+    width: 14px;
+    height: 14px;
+    border-radius: 14px;
+    background: #d9d9d9;
+    transition: all .5s;
+}
+
+.visual .paging span.swiper-pagination-bullet-active {
+    width: 30px;
+    background: #288bcc;
+}
+
+
+/* 금융서비스 */
+.service {
+    padding: 0 0 147px 0;
+}
+
+.service .banner > div {
+    width: 580px;
+    color: #fff;
+    text-align: center;
+}
+
+.service .banner div div {
+    padding: 37px 0 0;
+    width: 290px;
+    height: 280px;
+    box-sizing: border-box;
+}
+
+.service .banner .left {
+    float: left;
+    background: url(../images/service1.jpg) no-repeat left top;
+
+}
+
+.service .banner .left div {
+    float: right;
+    background: linear-gradient(to right, #3194d5, #4fb2f6);
+}
+.service .banner .right {
+    float: right;
+    background: url(../images/service2.jpg) no-repeat right top;
+
+}
+
+.service .banner .right div {
+    background: linear-gradient(to right, #334da4, #3c62b3);
+}
+
+.service .banner h3 {
+    font-size: 24px;
+    line-height: 31px;
+}
+
+.service .banner p {
+    padding: 12px 0 15px;
+    font-size: 13px;
+    line-height: 24px;
+
+}
+.service .banner a {
+    display: block;
+    margin: 0 auto;
+    width: 140px;
+    background: #064ca2;
+    border-radius: 7px;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.service .btm > article {
+    position: relative;
+    margin: 38px 0 0;
+    width: 580px;
+    font-size: 26px;
+    color: #333;
+}
+
+.service .btm h3 {
+    padding: 0 0 28px;
+    font-size: 26px;
+    color: #333;
+}
+
+.service .event {
+    float: left;
+}
+
+.service .recom {
+    float: right;
+}
+
+.service .event img {
+    width: 100%;
+}
+
+.service .card_info > div {
+    float: left;
+    
+}
+
+.service .card_info .card {
+    position: relative;
+}
+
+.btn-func {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 0;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.btn-func::before{
+    content: "";
+    position: absolute;
+    left: 50%;
+    width: 1px;
+    height: 100%;
+    background: #bfc0c2;
+}
+
+.btn-func button {
+    width: 50%;
+    height: 45px;
+    font-size: 15px;
+    color: #666;
+    background: none;
+    cursor: pointer;
+}
+
+.service .card_info .info {
+    padding: 0 0 0 35px;
+    width: 295px;
+}
+.service .card_info .info h4 {
+    font-size: 26px;
+    color: #333;
+    line-height: 1;
+}
+
+.service .card_info .info p {
+    position: relative;
+    padding: 36px 0 0 0;
+    font-size: 18px;
+    color: #666;
+    letter-spacing: 0.5px;
+}
+
+.service .card_info .info p::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 21px;
+    width: 36px;
+    height: 2px;
+    background: #288bcc;
+}
+
+.service .slide2 {
+    padding: 20px 0 0;
+    height: 224px;
+    border-top: 2px solid #333;
+    box-sizing: border-box;
+}
+
+.service .slide2 .control {
+    position: absolute;
+    left: 256px;
+    bottom: 0;
+    z-index: 100;
+}
+
+.service .slide2 .control button {
+    width: 75px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.service .slide2 .control button ~ button {
+    border-left: 1px solid #ddd;
+}
+
+.service .slide2 .control .prev-btn {
+    background: url(../images/sArrow_prev.png) no-repeat center;
+}
+
+.service .slide2 .control .next-btn {
+    background: url(../images/sArrow_next.png)  no-repeat center;
+}
+
+
+.btn_more {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 136px;
+    font-size: 16px;
+    color: #8a8a8a;
+    text-align: center;
+    line-height: 38px;
+    border: 1px solid #cdcdcd;
+    border-radius: 4px;
+}
+
+.btn_more::after {
+    /* content: url(../images/sBtn_next3.png); */
+    margin: 0 0 0 7px;
+}
+
+/* 관심정보 */
+.fav-info {
+    padding: 0 0 100px;
+    background: #f9f9f9;
+}
+
+.fav-info .left {
+    float: left;
+    width: 384px;
+}
+
+.fav-info .left .thoumb {
+    padding: 30px 0 0;
+}
+
+.fav-info .left .thoumb img {
+    width: 100%;
+}
+
+.fav-info .left .thoumb p {
+    position: relative;
+    padding: 33px 0 22px;
+    margin: 0 0 20px;
+    font-size: 15px;
+    color: #288bcf;
+    line-height: 1;
+}
+
+.fav-info .left .thoumb p::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 36px;
+    height: 1px;
+    background: #288bcf;
+}
+
+.fav-info .left .thoumb span {
+    font-size: 19px;
+    color: #333;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.fav-info .left > a {
+    display: block;
+    width: 384px;
+    height: 65px;
+    font-size: 19px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 65px;
+    text-align: center;
+    background: #3f69b8;
+    border-radius: 5px;
+}
+
+.fav-info .left > a span {
+    color: #ffc820;
+}
+
+.fav-info .right {
+    float: right;
+    width: 792px;
+}
+
+.tab_type1 {
+    display: flex;
+    border: 1px solid #e4e4e4;
+    border-radius: 5px;
+}
+
+.tab_type1 li {
+    flex: 1;
+}
+
+.tab_type1 li a {
+    display: block;
+    font-size: 17px;
+    color: #333;
+    text-align: center;
+    line-height: 62px;
+    background: #fff;
+}
+
+.tab_type1 li a:hover {
+    background-color: #f5f5f5;
+    color: #288bcc;
+}
+
+.tab_type1 li:first-child a {
+    border-radius: 5px 0 0 5px;
+}
+
+.tab_type1 li:last-child a {
+    border-radius: 0 5px 5px 0;
+}
+
+.tab_type1 li ~ li {
+    border-left: 1px solid #e4e4e4;
+}
+
+/* .tab_type1 li:nth-child(1) a::before {
+    content: url(../images/);
+} */
+
+.info_list {
+    margin: 30px 0 0;
+    border-top: 2px solid #288bcc;
+}
+
+.info_list li {
+    border-bottom: 1px solid #eaeaea;
+    background-color: #fff;
+}
+
+.info_list li a {
+    position: relative;
+    display: block;
+    line-height: 82px;
+    font-size: 19px;
+    color: #333;
+}
+
+.info_list li a::after {
+    content: "";
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    width: 26px;
+    height: 26px;
+    transform: translateY(-50%);
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    background: url(../images/sBtn_next3.png) no-repeat;
+    background-position: 9.5px;
+    background-size: 10px;
+
+}
+
+.info_list li a strong{
+    display: inline-block;
+    width: 130px;
+    padding: 0 0 0 30px;
+    font-size: 15px;
+    color: #288bcc;
+}
+
+/* 교육 */
+.education {
+    padding: 0 0 104px;
+}
+.h3 {
+    padding: 0 0 28px;
+    font-size: 23px;
+    color: #333;
+    line-height: 1;
+}
+
+.h3 span {
+    color: #288bcc;
+}
+
+.h3 em {
+    color: #8a76b4;
+    font-weight: bold;
+}
+
+.education .edu-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.education .edu-wrap .left {
+    width: 580px;
+}
+
+.education .edu-wrap .left a {
+    display: block;
+    padding: 72px 50px;
+    height: 544px;
+    border-radius: 4px;
+    color: #fff;
+    background: url("../images/work-img.jpg") no-repeat center / auto 100%;
+    box-sizing: border-box;
+}
+
+.education .edu-wrap .left a strong {
+    display: block;
+    padding: 0 0 16px;
+    width: 330px;
+    font-size: 27px;
+    line-height: 38px;
+}
+
+.education .edu-wrap .left a p {
+    padding: 0 0 35px;
+    width: 255px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.education .edu-wrap .left a span {
+    display: block;
+    width: 140px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 6px;
+}
+
+.education .edu-wrap .right {
+    width: 580px;
+}
+
+.education .edu-wrap .right > div{
+    position: relative;
+}
+
+.education .edu-wrap .right > div ~ div {
+    margin : 53px 0 0;
+}
+
+.education .info-wrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 0;
+    border-top: 2px solid #333;
+}
+
+.education .info-wrap .img {
+    position: relative;
+    width: 249px;
+    height: 198px;
+    overflow: hidden;
+}
+
+.education .info-wrap img {
+    width: 100%;
+    height: 100%;
+}
+
+.education .info-wrap .info {
+    width: 296px;
+}
+
+.education .info-wrap .info a {
+    display: block;
+    margin: 0 0 25px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 23px;
+    color: #333;
+    line-height: 1;
+}
+
+.education .info-wrap .info li {
+    padding: 0 0 17px;
+    line-height: 1;
+    font-size: 17px;
+    color: #787878;
+}
+
+.education .info-wrap .info li strong {
+    display: inline-block;
+    width: 44px;
+    color: #222;
+}
+
+.education .info-wrap .info p {
+    font-size: 16px;
+    color: #666;
+}
+
+
+/* 여행 */
+.trip {
+    padding: 0 0 100px;
+    background: url("../images/trip-bg.jpg") no-repeat center top;
+
+}
+
+.trip .tit h2, .trip .tit p {
+    color: #fff;
+
+}
+
+.trip .trip-list {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.trip .trip-list li {
+    position: relative;
+    width: 384px;
+    height: 439px;
+    border-radius: 5px;
+    text-align: center;
+    background: #fff;
+}
+
+.trip .trip-list li .thoumb {
+    width: 100%;
+    height: 212px;
+    border-radius: 5px 5px 0 0;
+}
+
+.trip .trip-list li .mark {
+    position: absolute;
+    right: -10px;
+    top: -24px;
+}
+
+.trip .trip-list li strong {
+    display: block;
+    padding: 37px 0 15px;
+    color: #333;
+    font-size: 24px;
+    line-height: 1;
+}
+
+.trip .trip-list li p {
+    padding: 0 0 20px;
+    color: #666;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.trip .trip-list li a {
+    display: inline-block;
+    width: 148px;
+    height: 40px;
+    color: #fff;
+    font-size: 17px;
+    line-height: 40px;
+    border-radius: 5px;
+}
+
+.trip .trip-list .color1 strong span {
+    color: #ed2626;
+}
+.trip .trip-list .color1 a {
+    background: #ed2626;
+}
+
+.trip .trip-list .color2 strong span {
+    color: #112e86;
+}
+.trip .trip-list .color2 a {
+    background: #112e86;
+}
+
+.trip .trip-list .color3 strong span {
+    color: #288bcc;
+}
+
+.trip .trip-list .color3 a {
+    background: #288bcc;
+}
+
+/* 일자리정보 */
+.job .job-info {
+    display: flex;
+}
+
+.job .job-info li {
+    margin: 0 21px 0 0;
+    padding: 0 30px;
+    width: 285px;
+    border-top: 2px solid #288bcc;
+    box-sizing: border-box;
+    line-height: 1;
+}
+
+.job .job-info li img {
+    display: block;
+    margin: 30px auto;
+}
+
+.job .job-info li strong {
+    color: #333;
+    font-size: 20px;
+}
+
+.job .job-info li p {
+    position: relative;
+    padding: 19px 0 47px;
+    width: 225px;
+    color: #666;
+    font-size: 17px;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.job .job-info li p::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 26px;
+    width: 36px;
+    height: 1px;
+    background: #288bcc;
+}
+
+.job .job-info li span {
+    color: #55b9fe;
+    font-size: 12px;
+}
+
+.job .left {
+    position: relative;
+    float: left;
+}
+
+.job .left .btn_more {
+    right: 21px;
+
+}
+
+.job .right {
+    float: right;
+    padding: 51px 0 0;
+    margin-bottom: 100px;
+}
+
+.job .right img {
+    width: 282px;
+    border: 1px solid #e4e4e4;
+    box-sizing: border-box;
+}
+
+.customer {
+    clear: both;
+    padding: 40px;
+    border: 1px solid #aec6f1;
+}
+
+.customer .h3 {
+    float: left;
+
+}
+
+.customer .txt {
+    float: left;
+    padding: 0 0 0 13px;
+    font-size: 17px;
+    color: #666;
+}
+
+.customer .form {
+    clear: both;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 27px;
+    font-size: 0;
+}
+
+.customer .form input,
+.customer .form select {
+    height: 50px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 15px;
+    background: #fafafa;
+}
+
+.customer .form input {
+    padding: 0 0 0 20px;
+    box-sizing: border-box;
+
+}
+
+.customer .form label {
+    padding: 0 14px 0 0;
+    font-size: 15px;
+    color: #333;
+}
+
+.customer .form input::-webkit-input-placeholder {
+    font-size: 15px;
+    color: #a9a9a9;
+    line-height: 50px;
+}
+
+.customer .form button {
+    margin-left: 8px;
+    width: 130px;
+    border-radius: 5px;
+    background: #288bcc;
+    font-size: 15px;
+    color: #fff;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+.customer .form span {
+    display: inline-block;
+    width: 18px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 15px;
+    line-height: 50px;
+}
+
+.customer input[type="checkbox"] + label {
+    display: inline-block;
+    padding: 0 10px 0 29px;
+    font-size: 16px;
+    color: #333;
+    line-height: 25px;
+    background: url(../images/checkbox.png) no-repeat left;
+}
+
+.customer label + a {
+    display: inline-block;
+    font-size: 14px;
+    color: #8b8b8b;
+    text-decoration: underline;
+    vertical-align: -2px;
+}
+
+.slide-btm {
+    padding: 40px;
+    font-size: 0;
+}
+
+.slide-btm a {
+    padding-right: 10px;
+}
+
+.slide-btm img {
+    border: 1px solid #e3e3e3;
+}
+
+
