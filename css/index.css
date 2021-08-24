@@ -1,11 +1,5 @@
 @charset "utf-8";
 /* 서비스 섹션 */
- .block > div {
-    width: 1200px;
-    margin: 0 auto;
-    padding: 100px 0 0;
- }
-
  .block .tit {
      text-align: center;
  }
@@ -799,17 +793,5 @@
     vertical-align: -2px;
 }
 
-.slide-btm {
-    padding: 40px;
-    font-size: 0;
-}
-
-.slide-btm a {
-    padding-right: 10px;
-}
-
-.slide-btm img {
-    border: 1px solid #e3e3e3;
-}
 
 
