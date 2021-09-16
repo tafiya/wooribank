@@ -19,6 +19,10 @@
 }
 
 /* 슬라이드 */
+.visual {
+    position: relative;
+}
+
 .visual img {
     width: 100%;
 }

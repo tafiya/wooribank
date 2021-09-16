@@ -28,6 +28,7 @@ header .top h1 a:first-child {
 
 header .top > div {
      float: right;
+     position: relative;
  }
 
 header .control {
@@ -168,7 +169,8 @@ header .btm .spot button {
 
 /* footer */
 .slide-btm {
-    padding: 40px;
+    overflow: hidden;
+    padding: 42px;
     font-size: 0;
 }
 

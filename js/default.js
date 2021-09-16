@@ -30,6 +30,7 @@ $(document).ready(function(){
 
       var swiper3 = new Swiper(".slide3", {
         slidesPerView: 6,
+        spaceBetween: 10,
         loop: true,
         autoplay: {
           delay: 2500,

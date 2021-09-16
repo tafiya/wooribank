@@ -1,0 +1,30 @@
+@charset "utf-8";
+.join-wrap{
+    margin: 0 auto;
+    padding: 86px 0 180px;
+    width: 1000px;
+}
+
+.join-wrap .step {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 242px;
+    border: 1px solid #bdbdbd;
+}
+
+.join-wrap .step li {
+    width: 100px;
+    height: 160px;
+}
+
+.h2 {
+    font-size: 32px;
+    color: #333;
+}
+
+.h3 {
+    font-size: 19px;
+    color: #333;
+}
+
